@@ -25,21 +25,21 @@
 	opacity: 0.9;
 }
 .locations,
-.amenities {
+.filters > .amenities {
 	height: 100%;
 	width: 25%;
 	border-left: 1px solid #DDDDDD;
 	padding-left: 40px;
 }
 .locations > h3,
-.amenities > h3 {
+.filters > .amenities > h3 {
     font-weight: 600;
 	margin: 0;
 	padding: 0;
 	margin-top: 10px;
 }
 .locations > h4,
-.amenities > h4 {
+.filters > .amenities > h4 {
     font-weight: 400;
     font-size: 14px;
 	margin: 0;
@@ -62,6 +62,6 @@ ul {
 	list-style-type: none;
 }
 .locations:hover .popover,
-.amenities:hover .popover{
+.filters > .amenities:hover .popover{
 	visibility: visible;
 }
